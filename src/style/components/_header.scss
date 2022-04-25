@@ -1,0 +1,160 @@
+.navbar {
+    // position: static;
+    position: fixed;
+    background-color: cadetblue;
+    // background-image: url(/src/img/Dirty-Slate.jpg);
+    // display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar-logo {
+    font-size: 4.5rem;
+    padding-left: 1.2rem;
+    padding-top: 0;
+    cursor: pointer;
+}
+.navbar-logo-link {
+    color: wheat;
+    text-decoration: none;
+}
+
+#dropdown-dark {
+    color: white;
+    font-weight: bold;
+}
+
+#dropdown-light {
+    color: black;
+    font-weight: bold;
+}
+
+.navDropdown-item {
+    background-color: pink;
+    font-weight: bold;
+    color: cornflowerblue;
+    font-size: 1.5rem;
+}
+
+.right-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2.2rem;
+}
+
+#dn-switch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 6rem;
+}
+
+#custom-switchs {
+    margin-top: 0.1rem;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.sun {
+    font-size: 3rem;
+    color: yellow;
+}
+
+#sun-light {
+    color: black;
+}
+
+.night {
+    margin-top: 0.1rem;
+    margin-right: 5rem;
+    font-size: 3rem;
+    color: white;
+}
+
+#night-light {
+    color: black;
+}
+
+//
+
+// .search-box {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+// .search-inputs {
+//     display: flex;
+//     border-radius: 20px;
+//     font-size: 2rem;
+//     font-style: italic;
+//     font-weight: bold;
+//     padding-left: 2rem;
+//     width: 110rem;
+//     height: 4rem;
+//     margin-top: 1rem;
+// }
+
+// #search-inputs-dark {
+//     background-color: whitesmoke;
+// }
+
+// #search-inputs-light {
+//     background-color: darkgrey;
+// }
+
+// #search-button {
+//     font-size: 5rem;
+//     border-radius: 5rem;
+// }
+// .hamburger-menu {
+//     color: white;
+//     display: none;
+//     font-size: 3.5rem;
+//     margin-right: 2rem;
+//     cursor: pointer;
+// }
+
+// #hamburger-menu-light {
+//     color: black;
+//     // display: none;
+// }
+
+@media only screen and (max-width: 48rem) {
+    body {
+        background: $dark-blue;
+    }
+    
+    .navbar-logo {
+        display: block;
+        font-size: 3rem;
+        padding-left: 0.2rem;
+        padding-top: 0;
+        cursor: pointer;
+    }
+
+    #dropdown-dark {
+        color: white;
+        font-weight: bold;
+        display: none;
+    }
+
+    #dropdown-light {
+        color: black;
+        font-weight: bold;
+        display: none;
+    }
+
+    .navDropdown-item {
+        background-color: pink;
+        font-weight: bold;
+        color: cornflowerblue;
+        font-size: 1.5rem;
+        display: none;
+    }
+
+}

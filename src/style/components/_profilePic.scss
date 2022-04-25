@@ -1,0 +1,138 @@
+
+.main-modal-profilepic{
+    position: absolute;
+    height: 30rem;
+    width: 50rem;
+    color: white;
+    display: grid;
+    padding: 2rem;
+    background-color: rgb(5, 9, 58);
+}
+
+.button-box-profilepic{
+    font-weight: bold;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 40px;
+    width: 300px;
+    margin: 20px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px azure;
+    border-radius: 30px;   
+}
+
+.input-area-profilepic {
+    left: 100px;
+    top: 90px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.input-image-profilepic {
+    transition: .5s;
+    width: 85%;
+    padding: 0px 0;
+    margin: 70px 0px 30px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 4.5px grey;
+    border: 1px solid #999;
+    outline: none;
+    background: linear-gradient(to right, hsl(192, 65%, 59%), #FFA07A);
+    color: black;
+    font-weight: bolder;
+}
+
+
+.submit-btn-profilepic {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: block;
+    margin-top: 0px;
+    // margin: auto;
+    background: linear-gradient(to right, #0ab6d4, #DDA0DD);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.profilepic-error{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding: 2px;
+    color: red;
+}
+@media only screen and (max-width: 48rem) {
+
+    .main-modal-profilepic{
+        position: absolute;
+        height: 30rem;
+        width: 30rem;
+        color: white;
+        display: grid;
+        padding: 2rem;
+        background-color: rgb(5, 9, 58);
+    }
+
+    .button-box-profilepic{
+        font-weight: bold;
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        height: 40px;
+        width: 250px;
+        margin: 10px auto;
+        position: relative;
+        box-shadow: 0 0 20px 9px azure;
+        border-radius: 30px;   
+    }
+    
+    .input-area-profilepic {
+        left: 50px;
+        top: 90px;
+        position: absolute;
+        width: 250px;
+        transition: 0.5s;
+    }
+    
+    .input-image-profilepic {
+        transition: .5s;
+        width: 80%;
+        padding: 0px 0;
+        margin: 40px 0px 50px 0;
+        border-left: 0;
+        border-top: 0;
+        border-right: 0;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 4.5px grey;
+        border: 1px solid #999;
+        outline: none;
+        background: linear-gradient(to right, hsl(192, 65%, 59%), #FFA07A);
+        color: black;
+        font-weight: bolder;
+    }
+    
+    
+    .submit-btn-profilepic {
+        width: 85%;
+        padding: 10px 30px;
+        cursor: block;
+        margin-top: 0px;
+        // margin: auto;
+        background: linear-gradient(to right, #d4760a, #DDA0DD);
+        border: 0;
+        outline: none;
+        border-radius: 30px;
+    }
+    
+    
+}

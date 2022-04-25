@@ -1,0 +1,67 @@
+
+.sidebar {
+    display: flex;
+    background-color: lightblue;
+    width: 20rem;
+    height: 100vh;
+    position: fixed;
+    flex-direction: column;
+    align-items: flex-start;
+    // background-image: url('../../img/Dirty-Slate.jpg');
+}
+
+.sidebar ul {
+    width: 100%;
+}
+
+.sidebar li {
+    list-style: none;
+    margin-bottom: 2.5rem;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 0.2rem;
+}
+
+.write-post {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    font-size: 5rem;
+}
+
+.write-post a {
+    color: blueviolet;
+}
+
+.my-post {
+    font-size: 1.75rem;
+}
+
+.my-post a {
+    color: darkslategray;
+}
+
+#mypost-noteboot {
+    color: brown;
+    font-size: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#my-contacts {
+    color: violet;
+    font-size: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.my-contacts {
+    font-size: 1.75rem;
+}
+
+.my-contacts a {
+    color: darkslategray;
+}

@@ -1,0 +1,276 @@
+.timeline-container {
+    min-height: 800px;
+    margin-left: 185px;
+    margin-top: 8.5rem;
+}
+
+.timeline-container ul {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.timeline-container li {
+    // background-color: lightblue;
+    // margin-bottom: 20px;
+    // border: 2px dotted lightcyan;
+    border-radius: 20px;
+}
+
+.post-container {
+    border-radius: 80px;
+    border: 75px solid #faebd7;
+    margin-bottom: 10px;
+}
+
+.posts {
+    // padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.posts p {
+    font-family: cursive;
+    font-size: large;
+    color: white;
+}
+
+.post-images {
+    // margin-top: 50px;
+    // margin-left: -260px;
+    // height="100px" width="1700px"
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    // height: 750px;
+    // width: 1460px;
+}
+
+.image img {
+    height: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.post {
+    margin-left: -2075px;
+    padding-top: -10px;
+}
+
+.post-text {
+    font-size: 20px;
+    // font-style: border;
+    color: black;
+}
+
+.comment-likes {
+    margin-bottom: -50px;
+    display: flex;
+    align-items: center;
+}
+.comment-likes div {
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.likes {
+    cursor: pointer;
+    font-size: 30px;
+    color: blue;
+}
+
+.likes span {
+    cursor: default;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+
+.comments {
+    color: dimgray;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.comments span {
+    cursor: default;
+    font-weight: bold;
+    color: lightslategrey;
+}
+
+.profile-details {
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-details img {
+    font-size: 10px;
+}
+
+.profile-pic {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.user-name {
+    cursor: pointer;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    color: lightskyblue;
+}
+
+
+
+@media only screen and (max-width: 48rem) {
+    .timeline-container {
+        // min-height: 1px;
+        height: 5px;
+        margin-left: 0px;
+        // margin-top: 8.5rem;
+        // display: none;
+    }
+
+    .timeline-container ul {
+        list-style: none;
+        margin-right: 1rem;
+    }
+
+    .timeline-container li {
+        // background-color: lightblue;
+        // margin-bottom: 20px;
+        // border: 2px dotted lightcyan;
+        border-radius: 20px;
+    }
+
+    .post-container {
+        border-radius: 40px;
+        border: 25px solid #faebd7;
+        margin-bottom: 10px;
+    }
+
+    .posts {
+        padding: 5px;
+        // padding-top: 5px;
+        // padding-bottom: 5px;
+        // padding-left: 5px;
+        // padding-right: 5px;
+    }
+
+    .posts p {
+        font-family: cursive;
+        font-size: large;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    .post-images {
+        // margin-top: 50px;
+        // margin-left: -260px;
+        // height="100px" width="1700px"
+
+        margin-top: -20px;
+        margin-bottom: 10px;
+        // height: 750px;
+        // width: 1460px;
+    }
+
+    .image img {
+        border-radius: 20px;
+        height: auto;
+        width: 100%;
+        // height: 50%;
+        margin-bottom: -10px;
+    }
+
+    .post {
+        margin-left: -2075px;
+        padding-top: -10px;
+    }
+
+    .post-text {
+        font-size: 20px;
+        // font-style: border;
+        color: black;
+    }
+
+    .comment-likes {
+        margin-left: 100px;
+        margin-bottom: -20px;
+        display: flex;
+        align-items: center;
+    }
+    .comment-likes div {
+        margin-top: 10px;
+        margin-bottom: -33px;
+    }
+
+    .likes {
+        display: flex;
+        cursor: pointer;
+        font-size: 22.5px;
+        color: blue;
+    }
+
+    .likes span {
+        display: block;
+        font-size: 22.5px;
+        cursor: default;
+        font-weight: bold;
+        color: cornflowerblue;
+        margin-right: 10px;
+        margin-bottom: 17px;
+    }
+
+    .like-icon{
+        margin-top: 3.5px;
+        margin-left: 5px;
+    }
+
+    .comments {
+        color: dimgray;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .comments span {
+        cursor: default;
+        font-weight: bold;
+        color: lightslategrey;
+    }
+
+    .profile-details {
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .profile-details img {
+        font-size: 10px;
+    }
+
+    .profile-pic {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        margin-bottom: 10px;
+    }
+
+    .user-name {
+        cursor: pointer;
+        margin-top: -10px;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        color: lightskyblue;
+    }
+}

@@ -1,0 +1,140 @@
+$myAccountBg: #f0fff0;
+$btnHoverBg: #708090;
+$smokeWhite: #ffffff;
+$btn: #4b0082;
+
+.my-account {
+    font-size: 3.2rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: mediumturquoise;
+}
+
+.my-account-light {
+    font-size: 3.2rem;
+    padding-left: 1.5rem;
+    color: darkblue;
+}
+
+.my-account:hover {
+    color: darksalmon;
+    margin-bottom: 3rem;
+}
+
+.my-account-light:hover {
+    color: magenta;
+}
+
+.account-list-show {
+    display: block;
+    float: right;
+    transition-delay: 2s;
+    margin-top: 30px;
+    position: absolute;
+    right: 0;
+    top: 80;
+    position: fixed;
+}
+
+.account-list-disable {
+    display: none;
+    transition-delay: 850ms;
+}
+
+.account-box {
+    border: olivedrab;
+    border-radius: 1rem;
+    background-color: $myAccountBg;
+    margin-right: 1.1rem;
+    margin-top: -4.5rem;
+    height: 85px;
+    width: 140px;
+}
+
+.account-box ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.about-Link{
+    text-decoration: none;
+}
+
+.account-box div {
+    padding-top: 5px;
+}
+
+.account-box button {
+    color: $btn;
+    font-weight: bold;
+    // background: pink;
+    background: transparent;
+    border-color: transparent;
+    margin-top: .5rem;
+    display: inline;
+    left: 0;
+    justify-content: start;
+    border-radius: 15px;
+    width: 140px;
+    font-size: 18px;
+    padding: 5px 0px;
+}
+
+.account-box button:hover {
+    color: $smokeWhite;
+    background: $btnHoverBg;
+    border-color: transparent;
+}
+
+.account-list-show .account-box:before {
+    content: "";
+    position: absolute;
+    right: 24px;
+    top: -6.7rem;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+
+    border: transparent;
+    border-width: 1.1rem;
+    border-style: solid;
+    border-bottom-color: $myAccountBg;
+}
+
+.profileUpload-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 48rem) {
+    .account-box {
+        border: olivedrab;
+        border-radius: 1rem;
+        background-color: $myAccountBg;
+        margin-right: .5rem;
+        margin-top: -4.5rem;
+        height: 120px;
+        width: 170px;
+    }
+
+    .account-box button {
+        color: $btn;
+        font-weight: bold;
+        // background: pink;
+        background: transparent;
+        border-color: transparent;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        display: inline;
+        left: 0;
+        justify-content: start;
+        border-radius: 15px;
+        width: 150px;
+        font-size: 18px;
+        padding: 0px 0px;
+    }
+
+    .profileUpload-mobile{
+        display: block;
+    }
+
+}

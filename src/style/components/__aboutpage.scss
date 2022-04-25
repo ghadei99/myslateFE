@@ -1,0 +1,256 @@
+.linkedin-btn {
+    padding: 0px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+
+.linkedin-btn a {
+    text-decoration: none;
+}
+
+.gmail {
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.about-main-container {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    margin-top: 20vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+
+.about-main-container div {
+    // margin: auto;
+}
+
+.about-page-container {
+    // display: none;
+    background-color: lightgray;
+    min-width: 30vh;
+    height: 50vh;
+    width: 90vh;
+    position: absolute;
+    top: 35;
+    left: 0;
+    // box-shadow: 10px 10px 30px 0px blueviolet;
+}
+
+.about-page-dummybox {
+    background-color: grey;
+    min-width: 30vh;
+    height: 50vh;
+    width: 90vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    border-radius: 10px;
+    top: 0px;
+    left: 0;
+    // box-shadow: 10px 10px 30px 0px orange;
+}
+
+.dot {
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+}
+
+.dot1 {
+    background-color: orangered;
+}
+
+.dot2 {
+    background-color: orange;
+}
+
+.dot3 {
+    background-color: green;
+}
+
+// .about-me-browser {
+//     margin-left: 50px;
+//     height: 0px;
+//     width: 175px;
+//     border-radius: 10px;
+//     border-bottom: 30px solid whitesmoke;
+//     border-left: 30px solid transparent;
+//     border-right: 30px solid transparent;
+// }
+
+// .about-me-browser h3 {
+//     font-weight: bold;
+//     font-size: 20px;
+//     padding-left: 10px;
+//     padding-top: 0px;
+//     padding-right: 10px;
+// }
+
+.about-page-container {
+    position: inherit;
+    display: inline;
+}
+
+.about-images {
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 50%;
+    width: 50%;
+}
+
+.about-header {
+    // display: none;
+    color: darkblue;
+    margin-top: 10px;
+    margin-left: 20px;
+    // float: right;
+}
+
+.about-container {
+    // display: none;
+    position: absolute;
+    font-weight: bold;
+    margin-top: -25px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: darkslategray;
+    // border: solid 2px pink;
+    padding: 10px;
+    text-shadow: 1px 1px lightblue;
+}
+
+@media only screen and (max-width: 48rem) {
+    .about-images {
+        margin-top: 2%;
+        margin-left: 5%;
+        // margin-right: 5%;
+        height: 40%;
+        width: 90%;
+        // display: none;
+    }
+    .linkedin-btn {
+        padding: 0px;
+        border: 0px;
+        border-radius: 10px;
+        font-size: 30px;
+        background-color: whitesmoke;
+        margin-left: 20px;
+    }
+
+    .linkedin-btn a {
+        text-decoration: none;
+    }
+
+    .about-main-container {
+        display: flex;
+        // align-items: center;
+        // justify-content: center;
+        margin-top: 20vh;
+        margin-left: 5%;
+        margin-right: 10%;
+        position: relative;
+    }
+
+    .about-page-container {
+        // display: none;
+        background-color: lightgray;
+        min-width: 40vh;
+        height: 50vh;
+        width: 90vh;
+        position: absolute;
+        top: 35;
+        left: -40vh;
+        // box-shadow: 10px 10px 30px 0px blueviolet;
+    }
+
+    .about-page-dummybox {
+        background-color: grey;
+        min-width: 40vh;
+        height: 50vh;
+        width: 90vh;
+        // position: absolute;
+        position: static;
+        top: 0;
+        left: 0;
+        display: flex;
+        border-radius: 10px;
+        top: 0px;
+        left: 0;
+        // box-shadow: 10px 10px 30px 0px orange;
+    }
+
+    .dot {
+        margin-left: 15px;
+        margin-top: 10px;
+        height: 15px;
+        width: 15px;
+        border-radius: 10px;
+    }
+
+    .dot1 {
+        background-color: orangered;
+    }
+
+    .dot2 {
+        background-color: orange;
+    }
+
+    .dot3 {
+        background-color: green;
+    }
+
+    // .about-me-browser {
+    //     margin-left: 50px;
+    //     height: 0px;
+    //     width: 175px;
+    //     border-radius: 10px;
+    //     border-bottom: 30px solid whitesmoke;
+    //     border-left: 30px solid transparent;
+    //     border-right: 30px solid transparent;
+    // }
+
+    // .about-me-browser h3 {
+    //     font-weight: bold;
+    //     font-size: 20px;
+    //     padding-left: 10px;
+    //     padding-top: 0px;
+    //     padding-right: 10px;
+    // }
+
+    .about-page-container {
+        position: inherit;
+        display: inline;
+    }
+
+    .about-header {
+        // display: none;
+        color: darkblue;
+        margin-left: 20px;
+        // float: right;
+    }
+
+    .about-container {
+        // display: none;
+        font-weight: normal;
+        font-style: italic;
+        font-size: 12px;
+        margin-top: -10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: darkslategray;
+        border: solid 2px transparent;
+        padding: 10px;
+        text-shadow: 1px 1px lightblue;
+    }
+}

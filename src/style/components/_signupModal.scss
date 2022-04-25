@@ -1,0 +1,268 @@
+.ReactModalPortal > div {
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: opacity 200ms ease-in-out;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.main-modal {
+    width: 50rem;
+    height: 50rem;
+    position: absolute;
+    margin: 6% auto;
+    background: pink;
+    // background: url('https://i.ibb.co/kcQp5qJ/login-Image.png');
+}
+
+.main-signup-modal {
+    width: 50rem;
+    height: 50rem;
+    position: absolute;
+    margin: 6% auto;
+    background: pink;
+    // background: url('https://i.ibb.co/kcQp5qJ/login-Image.png');
+}
+
+.button-box {
+    width: 170px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-btn {
+    font-size: 17px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+.toggle-btn-active {
+    font-size: 17px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    border-radius: 30px;
+    background-color: orange;
+}
+
+.input-area-disabled {
+    display: none;
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.input-area {
+    left: 100px;
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box {
+    margin: 30px 10px 30px 0;
+}
+
+.check-box span {
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+.pwd-error{
+    color: #ff105f;
+    margin-top: 5px;
+    font-size: 15px;
+    padding: 5px;
+    // background-color: white;
+}
+
+.signup-error{
+    color: #ff105f;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.otp-sent{
+    color: green;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 48rem) {
+    .main-modal {
+        width: 30rem;
+        height: 30rem;
+        position: absolute;
+        margin: 6% auto;
+        background: pink;
+        // background: url('https://i.ibb.co/kcQp5qJ/login-Image.png');
+    }
+
+    .main-signup-modal {
+        width: 30rem;
+        height: 50rem;
+        position: absolute;
+        margin: 6% auto;
+        background: rgb(238, 196, 234);
+        // background: url('https://i.ibb.co/kcQp5qJ/login-Image.png');
+    }
+
+    .button-box {
+        width: 150px;
+        margin: 15px auto;
+        position: relative;
+        box-shadow: 0 0 20px 9px #ff61241f;
+        border-radius: 30px;
+    }
+
+    .toggle-btn {
+        font-size: 12px;
+        padding: 10px 15px;
+        cursor: pointer;
+        background: transparent;
+        border: 0;
+        outline: none;
+        position: relative;
+    }
+
+    .toggle-btn-active {
+        font-size: 15px;
+        padding: 10px 15px;
+        cursor: pointer;
+        background: transparent;
+        border: 0;
+        outline: none;
+        position: relative;
+        border-radius: 30px;
+        background-color: orange;
+    }
+
+    .input-area-disabled {
+        display: none;
+        top: 180px;
+        position: absolute;
+        width: 280px;
+        transition: 0.5s;
+    }
+
+    .input-area {
+        left: 25px;
+        top: 60px;
+        position: absolute;
+        width: 250px;
+        transition: 0.5s;
+    }
+
+    .input-field {
+        width: 100%;
+        padding: 10px 0;
+        margin: 15px 0;
+        border-left: 0;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 1px solid #999;
+        outline: none;
+        background: transparent;
+    }
+
+    .submit-btn {
+        margin-top: 0px;
+        margin-left: 75px;
+        width: 45%;
+        padding: 10px 20px;
+        cursor: block;
+        // margin: auto;
+        background: linear-gradient(to right, #ff105f, #ffad06);
+        border: 0;
+        outline: none;
+        border-radius: 40px;
+    }
+
+    .check-box {
+        margin: 30px 10px 30px 0;
+        display: none;
+    }
+
+    .check-box span {
+        color: #777;
+        font-size: 12px;
+        bottom: 68px;
+        position: absolute;
+        display: none;
+    }
+    span {
+        display: none;
+    }
+
+    .pwd-error{
+        color: #ff105f;
+        margin-top: 15px;
+        font-size: 15px;
+        padding: 5px;
+        // background-color: white;
+    }
+
+    .signup-error{
+        color: #ff105f;
+        margin-top: 5px;
+        margin-bottom: -5px;
+        font-size: 15px;
+        font-style: bold;
+    }
+
+    .otp-sent{
+        color: green;
+        margin-top: 5px;
+        margin-bottom: -5px;
+        font-size: 15px;
+        font-style: bold;
+    }
+}
+
